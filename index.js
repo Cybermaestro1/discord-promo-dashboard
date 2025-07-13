@@ -27,21 +27,21 @@ const client = new Client({
 
 const promotions = [
     {
-        title: "🔥 Promo 1: Launch Discount!",
-        description: "Get 30% off on all products. Limited time only!",
-        image: "https://your-image-link.com/promo1.jpg",
+        title: "🔥 Promo 1: Account flipping!",
+        description: "make more than 100% of your original deposit!",
+        image: "https://raw.githubusercontent.com/Cybermaestro1/discord-promo-dashboard/refs/heads/main/asset/profit%203.JPG",
         url: "https://pipblaster.xyz",
     },
     {
         title: "🎁 Promo 2: Free Membership!",
         description: "Join today and get 1-month free premium access.",
-        image: "https://your-image-link.com/promo2.jpg",
+        image: "https://raw.githubusercontent.com/Cybermaestro1/discord-promo-dashboard/refs/heads/main/asset/profit%202.JPG",
         url: "https://pipblaster.xyz",
     },
     {
         title: "🚀 Promo 3: Early Bird Bonus!",
         description: "Be the first to enjoy exclusive rewards.",
-        image: "https://your-image-link.com/promo3.jpg",
+        image: "https://raw.githubusercontent.com/Cybermaestro1/discord-promo-dashboard/refs/heads/main/asset/promo%20pic1.png",
         url: "https://pipblaster.xyz",
     },
 ];
