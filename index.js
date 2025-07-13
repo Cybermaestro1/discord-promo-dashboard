@@ -172,4 +172,4 @@ async function recordPromoClick(userId, promoIndex) {
     }
 }
 
-client.login(token);
+client.login(process.env.DISCORD_TOKEN);
