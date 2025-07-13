@@ -30,19 +30,19 @@ const promotions = [
         title: "🔥 Promo 1: Launch Discount!",
         description: "Get 30% off on all products. Limited time only!",
         image: "https://your-image-link.com/promo1.jpg",
-        url: "https://your-promotion-link.com/promo1",
+        url: "https://pipblaster.xyz",
     },
     {
         title: "🎁 Promo 2: Free Membership!",
         description: "Join today and get 1-month free premium access.",
         image: "https://your-image-link.com/promo2.jpg",
-        url: "https://your-promotion-link.com/promo2",
+        url: "https://pipblaster.xyz",
     },
     {
         title: "🚀 Promo 3: Early Bird Bonus!",
         description: "Be the first to enjoy exclusive rewards.",
         image: "https://your-image-link.com/promo3.jpg",
-        url: "https://your-promotion-link.com/promo3",
+        url: "https://pipblaster.xyz",
     },
 ];
 
@@ -109,12 +109,12 @@ async function sendMainMenu(user) {
         new ButtonBuilder()
             .setLabel("Visit Website")
             .setStyle(ButtonStyle.Link)
-            .setURL(websiteUrl),
+            .setURL(https://pipblaster.xyz),
 
         new ButtonBuilder()
-            .setLabel("Join Server")
+            .setLabel("Chat Admin")
             .setStyle(ButtonStyle.Link)
-            .setURL(serverInvite),
+            .setURL(https://discordapp.com/users/1302790091751690272),
 
         new ButtonBuilder()
             .setCustomId("promo_0")
