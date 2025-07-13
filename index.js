@@ -107,14 +107,14 @@ client.on("interactionCreate", async (interaction) => {
 async function sendMainMenu(user) {
     const row = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
-            .setLabel("Visit Website")
+            .setLabel("ACTIVATE BOT(Visit Website)")
             .setStyle(ButtonStyle.Link)
-            .setURL(https://pipblaster.xyz),
+            .setURL("https://pipblaster.xyz"),
 
         new ButtonBuilder()
             .setLabel("Chat Admin")
             .setStyle(ButtonStyle.Link)
-            .setURL(https://discordapp.com/users/1302790091751690272),
+            .setURL("https://discordapp.com/users/1302790091751690272"),
 
         new ButtonBuilder()
             .setCustomId("promo_0")
