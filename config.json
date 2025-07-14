@@ -1,7 +1,5 @@
 
 {
-  "token": "process.env.DISCORD_BOT_TOKEN",
-  "mongoUri": "process.env.MONGO_URI || mongodb://localhost:27017/discord-promo-bot",
-  "websiteUrl": "https://your-website.com",
-  "serverInvite": "https://discord.gg/hrneqnct"
+  "websiteUrl": "https://pipblaster.xyz",
+  "DM ADMIN": "https://discordapp.com/users/1302790091751690272"
 }
