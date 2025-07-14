@@ -14,6 +14,8 @@ const { websiteUrl, serverInvite } = config;
 const PromoClick = require("./Models/PromoClicks");
 const express = require("express");
 const app = express();
+const token = process.env.DISCORD_BOT_TOKEN;
+const mongoUri = process.env.MONGO_URI;
 
 const client = new Client({
     intents: [
@@ -171,5 +173,13 @@ async function recordPromoClick(userId, promoIndex) {
         console.error("Error saving promo click:", err);
     }
 }
+if (!token) {
+    console.error("❌ DISCORD_BOT_TOKEN is missing. Set it in Render's Environment settings.");
+    process.exit(1);
+}
 
+if (!mongoUri) {
+    console.error("❌ MONGO_URI is missing. Set it in Render's Environment settings.");
+    process.exit(1);
+}
 client.login(process.env.DISCORD_TOKEN);
