@@ -14,8 +14,6 @@ const { websiteUrl, serverInvite } = config;
 const PromoClick = require("./Models/PromoClicks");
 const express = require("express");
 const app = express();
-const token = process.env.DISCORD_BOT_TOKEN;
-const mongoUri = process.env.MONGO_URI;
 
 const client = new Client({
     intents: [
